@@ -15,7 +15,7 @@ function gameLoop() {
   moveSnake();
 
   if (checkCollision()) {
-    alert("game over, u suck lol " + score);
+    alert("game over, u suck lol. score: " + score);
     resetGame();
     return;
   }
